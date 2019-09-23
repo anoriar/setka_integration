@@ -1,0 +1,13 @@
+services:
+
+  # Основные классы бандла.
+  Aero\SetkaBundle\:
+    resource: '../../*'
+    exclude: '../../{DependencyInjection,Entity,Migrations,Tests}'
+
+  # Контроллеры.
+  Aero\SetkaBundle\Controller\:
+    resource: '../../Controller'
+    tags: ['controller.service_arguments']
+    autowire: true
+    public: true

@@ -1,0 +1,4 @@
+list:
+  path: /api/v1/setka/images
+  methods: [GET]
+  controller: Aero\SetkaBundle\Controller\ApiController::list

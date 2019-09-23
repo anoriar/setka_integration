@@ -1,0 +1,19 @@
+{
+  "name": "aero/setkabundle",
+  "description": "Symfony 4 Setka.io integration bundle, configurable with Sonata Admin",
+  "type": "symfony-bundle",
+  "homepage": "https://aeroidea.ru",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AlexeyBorisov",
+      "email": "borisov@aeroidea.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "Aero\\": "bundles/Aero"
+  }
+}
